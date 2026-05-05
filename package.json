@@ -1,0 +1,9 @@
+{
+  "name": "pgaxis-web",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
