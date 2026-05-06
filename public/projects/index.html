@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <span class="nav-title">Projects</span>
-            <button class="hamburger" id="hamburger" aria-label="Open menu">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <line x1="3" y1="6" x2="21" y2="6"/>
-                  <line x1="3" y1="12" x2="21" y2="12"/>
-                  <line x1="3" y1="18" x2="21" y2="18"/>
-                </svg>
-            </button>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="/" class="nav-link">Home</a></li>
-                <li><a href="/about/" class="nav-link">About</a></li>
-                <li><a href="/projects/" class="nav-link active">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar">
+      <span class="nav-title">Projects</span>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about/" class="nav-link">About</a></li>
+        <li><a href="/projects/" class="nav-link active">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        
-    </main>
+  <main>
+    <section class="about">
+      <h1>Projects</h1>
+      <p class="preview-text">All my public repositories, sorted by last updated.</p>
+    </section>
+    <div id="projects-list" class="project-cards"></div>
+  </main>
 
-    <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
