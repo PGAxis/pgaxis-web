@@ -12,8 +12,8 @@ navLinks.querySelectorAll('.nav-link').forEach(link => {
 });
 
 const subdomains = {
-  "MusicAxs": "musicaxs.pgaxis.dev",
-  "axs": "axs.pgaxis.dev",
+  /*"MusicPlayer": "musicaxs.pgaxis.dev",
+  "AxsFileFormat": "axs.pgaxis.dev",*/
 };
 
 function formatDate(dateStr) {
@@ -44,6 +44,7 @@ async function fetchRepos() {
 }
 
 function buildCard(repo, preview = false) {
+  console.log(repo.name)
   const subdomain = subdomains[repo.name];
   const cardUrl = subdomain ? `https://${subdomain}` : repo.html_url;
   const card = document.createElement("article");
