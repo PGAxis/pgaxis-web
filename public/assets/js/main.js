@@ -12,8 +12,8 @@ navLinks.querySelectorAll('.nav-link').forEach(link => {
 });
 
 const subdomains = {
-  /*"MusicPlayer": "musicaxs.pgaxis.dev",
-  "AxsFileFormat": "axs.pgaxis.dev",*/
+  //"MusicPlayer": "musicaxs.pgaxis.dev",
+  "AxsFileFormat": "axs.pgaxis.dev"
 };
 
 function formatDate(dateStr) {
